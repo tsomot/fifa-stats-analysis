@@ -1,15 +1,8 @@
 # Premier League predictions using fifa ratings
 
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/BradleyGrantham)
-
 This is the code base I created to both collect football data, and then
 use this data to train a neural network to predict the outcomes of football
 matches based on the fifa ratings of a team's starting 11.
-
-See the [blog post](https://medium.com/@bradleygrantham/predicting-premier-league-odds-from-ea-player-bfdb52597392)
-for more information on the methodology.
 
 ## Getting Started
 
@@ -59,22 +52,3 @@ simulator,
 ```
 from fifa_ratings_predictor.simulation import SeasonSimulator
 ```
-
-
-## Built With
-
-* [Python 3.6](https://www.python.org/downloads/release/python-360/) - The programming language
-* [Scrapy](https://github.com/scrapy/scrapy) - Scraping framework
-* [TensorFlow](https://github.com/tensorflow/tensorflow) - Neural network framework
-
-## Issues
-
-Get in contact on [Twitter](https://twitter.com/BradleyGrantham) if you have any issues.
-
-## Authors
-
-[**Bradley Grantham**](https://twitter.com/BradleyGrantham)
-
-## License
-
-This project is licensed under the MPL-2.0 License - see the [LICENSE](LICENSE) file for details
